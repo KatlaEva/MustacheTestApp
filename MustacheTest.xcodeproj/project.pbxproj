@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F8006C324E525A300239B41 /* open-sans.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F8006C224E525A300239B41 /* open-sans.regular.ttf */; };
+		7F8006C524E525AA00239B41 /* open-sans.bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F8006C424E525AA00239B41 /* open-sans.bold.ttf */; };
 		7F90F21524E45D7D00D282B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90F21424E45D7D00D282B3 /* AppDelegate.swift */; };
 		7F90F21724E45D7D00D282B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90F21624E45D7D00D282B3 /* SceneDelegate.swift */; };
 		7F90F21924E45D7D00D282B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90F21824E45D7D00D282B3 /* ViewController.swift */; };
-		7F90F21C24E45D7D00D282B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F90F21A24E45D7D00D282B3 /* Main.storyboard */; };
 		7F90F21F24E45D7D00D282B3 /* MustacheTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F90F21D24E45D7D00D282B3 /* MustacheTest.xcdatamodeld */; };
 		7F90F22124E45D8100D282B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F90F22024E45D8100D282B3 /* Assets.xcassets */; };
 		7F90F22424E45D8100D282B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F90F22224E45D8100D282B3 /* LaunchScreen.storyboard */; };
 		7F90F22F24E45D8100D282B3 /* MustacheTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90F22E24E45D8100D282B3 /* MustacheTestTests.swift */; };
+		7F90F23B24E45DC100D282B3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90F23A24E45DC100D282B3 /* Colors.swift */; };
+		7F90F23D24E45DE600D282B3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90F23C24E45DE600D282B3 /* Extensions.swift */; };
+		7F90F23F24E463D700D282B3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90F23E24E463D700D282B3 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F8006C224E525A300239B41 /* open-sans.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-sans.regular.ttf"; sourceTree = "<group>"; };
+		7F8006C424E525AA00239B41 /* open-sans.bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-sans.bold.ttf"; sourceTree = "<group>"; };
 		7F90F21124E45D7D00D282B3 /* MustacheTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MustacheTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F90F21424E45D7D00D282B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F90F21624E45D7D00D282B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7F90F21824E45D7D00D282B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7F90F21B24E45D7D00D282B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F90F21E24E45D7D00D282B3 /* MustacheTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MustacheTest.xcdatamodel; sourceTree = "<group>"; };
 		7F90F22024E45D8100D282B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F90F22324E45D8100D282B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +45,9 @@
 		7F90F22A24E45D8100D282B3 /* MustacheTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MustacheTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F90F22E24E45D8100D282B3 /* MustacheTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MustacheTestTests.swift; sourceTree = "<group>"; };
 		7F90F23024E45D8100D282B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F90F23A24E45DC100D282B3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		7F90F23C24E45DE600D282B3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7F90F23E24E463D700D282B3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F8006C124E5259400239B41 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7F8006C224E525A300239B41 /* open-sans.regular.ttf */,
+				7F8006C424E525AA00239B41 /* open-sans.bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		7F90F20824E45D7D00D282B3 = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +101,8 @@
 				7F90F21424E45D7D00D282B3 /* AppDelegate.swift */,
 				7F90F21624E45D7D00D282B3 /* SceneDelegate.swift */,
 				7F90F21824E45D7D00D282B3 /* ViewController.swift */,
-				7F90F21A24E45D7D00D282B3 /* Main.storyboard */,
+				7F90F23E24E463D700D282B3 /* MainView.swift */,
+				7F90F23924E45DB000D282B3 /* Utilities */,
 				7F90F22024E45D8100D282B3 /* Assets.xcassets */,
 				7F90F22224E45D8100D282B3 /* LaunchScreen.storyboard */,
 				7F90F22524E45D8100D282B3 /* Info.plist */,
@@ -100,6 +118,16 @@
 				7F90F23024E45D8100D282B3 /* Info.plist */,
 			);
 			path = MustacheTestTests;
+			sourceTree = "<group>";
+		};
+		7F90F23924E45DB000D282B3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7F90F23A24E45DC100D282B3 /* Colors.swift */,
+				7F90F23C24E45DE600D282B3 /* Extensions.swift */,
+				7F8006C124E5259400239B41 /* Fonts */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +211,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F8006C324E525A300239B41 /* open-sans.regular.ttf in Resources */,
+				7F8006C524E525AA00239B41 /* open-sans.bold.ttf in Resources */,
 				7F90F22424E45D8100D282B3 /* LaunchScreen.storyboard in Resources */,
 				7F90F22124E45D8100D282B3 /* Assets.xcassets in Resources */,
-				7F90F21C24E45D7D00D282B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +233,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F90F21924E45D7D00D282B3 /* ViewController.swift in Sources */,
+				7F90F23D24E45DE600D282B3 /* Extensions.swift in Sources */,
+				7F90F23F24E463D700D282B3 /* MainView.swift in Sources */,
+				7F90F23B24E45DC100D282B3 /* Colors.swift in Sources */,
 				7F90F21524E45D7D00D282B3 /* AppDelegate.swift in Sources */,
 				7F90F21724E45D7D00D282B3 /* SceneDelegate.swift in Sources */,
 				7F90F21F24E45D7D00D282B3 /* MustacheTest.xcdatamodeld in Sources */,
@@ -229,14 +261,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7F90F21A24E45D7D00D282B3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F90F21B24E45D7D00D282B3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7F90F22224E45D8100D282B3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
